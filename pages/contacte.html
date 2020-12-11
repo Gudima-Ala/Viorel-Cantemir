@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Gimnaziul Viorel Cantemir</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+    <link rel="icon" type="image/png" href="../images/school.png">
+    <script src="../js/main.js"></script>
+</head>
+
+<body>
+    <header>
+        <img class="header-logo" src="../images/ViorelC.png" alt="Logoul siteului" />
+
+        <div id="navbar" class="nav">
+            <a href="../index.html">Home</a>
+            <a href="despre.html">Despre</a>
+            <a href="manageentul institutiei.html">Managementul instituției</a>
+            <a href="contacte.html" class="active">Contacte</a>
+            <a href="informatii utile.html">Informații utile</a>
+            <a class="hamburger-menu" onclick="mobileMenu()"><i class="fa fa-bars"></i></a>
+        </div>
+    </header>
+    <div class="container">
+        <br />
+        <div class="row">
+            <div class="col-6">
+                <div class="contact-form">
+                    <h3 class="centered">Contactează-ne: </h3>
+                    <hr />
+
+                    <form>
+                        <label for="nume">Numele:</label>
+                        <input class="input-box" type="text" name="nume" id="nume" />
+                        <br />
+                        <label for="Grupul de vârstă"> Grupul de vârstă:</label>
+                        <br />
+                        <input type="radio" name="Grupul de vârstă" value="Elev" /> Elev
+                        <br />
+                        <input type="radio" name="Grupul de vârstă" value="Părinte" /> Părinte
+                        <br />
+                        <label for="clasa">Clasa:</label>
+                        <input type="number" min="1" max="9" value="1" />
+                        <br />
+                        Adresa e-mail:<input class="input-box" type="email" name="email_user" required />
+                        <br />
+                        Lăsa-ți un mesaj: <br />
+                        <textarea cols="50" rows="5" readonly></textarea> <br />
+                        <input class="input-reset" type="reset" value="Șterge" />
+                        <input class="input-submit" type="submit" value="Transmite" />
+                    </form>
+                </div>
+            </div>
+            <br>
+            <br />
+            <br />
+            <div class="col-4 centered">
+                <div class="container-contacte">
+                    <h3>Contacte:</h3>
+                    <hr />
+                    <p>
+                        <b>Adresa:</b> <span> satul Sofia, raionul Drochia</span>
+                        <br />
+                        <b>Cod postal:</b> <span>5235</span>
+                        <br />
+                        <b>Telefon:</b> <span>025230380</span>
+                        <br />
+                        <b>Email:</b> <span>ltsofia@gmail.com</span>
+                    </p>
+                </div>
+
+            </div>
+        </div>
+        <hr />
+        <div class="centered">
+            <h2>Locația noastră: </h2>
+            <div class="container-iframe">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d10658.119470953836!2d27.791245233442027!3d48.10001344771284!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40ccb3d3c22a6a0d%3A0x71276f6f00ad0ab2!2z0KHQvtGE0LjRjywg0JzQvtC70LTQsNCy0LjRjw!5e0!3m2!1sru!2s!4v1596574446658!5m2!1sru!2s"
+                    width="100%" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false"
+                    tabindex="0">
+                </iframe>
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+    <footer>
+        <div class="centered footer-info">
+            <span>Gimnaziul "Viorel Cantemir" Sofia, </span>
+            <span id="an"> </span>
+        </div>
+    </footer>
+
+    <script src="../js/main.js"> </script>
+
+</body>
+
+</html>

@@ -15,3 +15,6 @@ S-a creat pagina principală, care este o pagina introductiva...
 ### Managementul instituției
 
 ### Contacte
+
+
+## Îmbunătățiri
